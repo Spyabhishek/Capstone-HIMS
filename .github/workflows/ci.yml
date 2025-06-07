@@ -21,15 +21,13 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-     
-- name: Make mvnw executable
-  working-directory: ./Backend
-  run: chmod +x mvnw
+      - name: Make mvnw executable
+        working-directory: ./Backend
+        run: chmod +x mvnw
 
-- name: Build Spring Boot backend
-  working-directory: ./Backend
-  run: ./mvnw clean install
-
+      - name: Build Spring Boot backend
+        working-directory: ./Backend
+        run: ./mvnw clean install
 
       # Frontend - React
       - name: Set up Node.js
