@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Sidebar from './components/layout/Sidebar';
 import PageLayout from './components/layout/PageLayout';
 import Dashboard from './pages/Dashboard';
-import Admins from './pages/admins';
+import Admins from './pages/Admins';
 import Policies from './pages/Policies';
 import Claims from './pages/Claims';
 import Payments from './pages/Payments';
